@@ -48,6 +48,11 @@ namespace WebEFFirst.Controllers
             }
         }
 
+        /// <summary>
+        /// 更新用户信息
+        /// </summary>
+        /// <param name="user"></param>
+        /// <returns></returns>
         [HttpPost]
         [Route("update")]
         public int ModifyUser([FromBody] User user)
